@@ -37,6 +37,11 @@ p {
     text-align: left;
 }
 
+ul{
+ text-align: left;
+    font-size: 1.25em;
+}
+
 .text-list li{
  text-align: left !important;
     font-size: 18px;
@@ -195,6 +200,13 @@ width: 130px;
 
 .intro .byline-text{
  text-align: center;
+}
+
+.btn-primary{
+     background-color:#008BB0;
+    border-radius: 0;
+    border: none;
+   
 }
 
 @media(min-width:767px) {
