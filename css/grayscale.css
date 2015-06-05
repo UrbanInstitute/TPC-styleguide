@@ -42,6 +42,12 @@ ul{
     font-size: 1.25em;
 }
 
+.text-swatch{
+/* width:20px;   */
+    color:#fff;
+    padding-left: 4px;
+    padding-right: 4px;
+}
 .text-list li{
  text-align: left !important;
     font-size: 18px;
