@@ -106,7 +106,7 @@
                         <p>
                             These guidelines are focused primarily for publishing charts to the web site. Minor sizing and typographic adjustments need to be made to insert charts into documents.
                         </p>
-                        <a target="_blank" href="#about" class="btn btn-circle page-scroll">
+                        <a target="_blank" href="#typography" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -942,53 +942,7 @@
 
             </div>
             
-<!--
-            ///////////////////////////////////////
-            /////////////     CHART     ///////////
-            ///////////////////////////////////////
--->
 
-            <div class="col-lg-10 col-lg-offset-1">
-                <hr class="divider"/>
-                <h3 style="margin-top:25px;">Line Charts</h3>
-                <h4>When to use a line chart</h4>
-                <ul>
-                    <li>Shows the trend in one variable, usually over time. 
-                    </li><li>Multiple lines can show multiple variables (if they are on the same scale).
- </li><li>Multiple lines can also show the same variable for multiple observations.</li>
-                </ul>
-
-                <h4>Style tips</h4>
-                <ul>
-                    <li>The y-axis should always start at zero.
-                    </li><li>When possible, directly label series. If too close together, use a legend.
-</li><li>Avoid individual data markers.
-</li><li>Avoid dashed lines.
-</li><li>In a single chart, try to keep the maximum number of lines to three or four. More is not always better. Plotting too many lines on the same chart gives a confusing picture and defeats the purpose.
-</li><li>Legends should be stretched across the top of the chart and the order should match the order in the chart.
-                        </li><li>Sequential series should be shaded from lightest to darkest for easy comparison.</li></ul>
-
-
-          
-                <img src="img/line-chart.png" width="100%" class="example-chart"  />
-           
-                <h5>Notes about this chart</h5>
-                <ul>
-                    <li>Let's suppose the data in this chart is categorical&mdash;that's why I used two contrasting colors. If the data was sequential, I would have used two shades of teal.
-                    </li>
-                    <li>The x-axis is starting to get a little cramped. To free up some space, we could reduce the number of labels (labeling every 2, 5, or 10 years) or change the year format to be '98, '99, '00, etc.  
-                    </li>
-                </ul>
-
-
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
-
-            </div>
-            
-<!--            END CHART-->
             
             <!--
             ///////////////////////////////////////
@@ -1068,6 +1022,48 @@
  </li><li>Sequential series should be shaded from lightest to darkest for easy comparison.</li></ul>
 
 
+                <img src="img/area.png" class="example-chart" width="100%" />
+
+            <!--            chart notes-->
+                <h5>Notes about this chart</h5>
+                <ul>
+                    
+                    <li>X-axis labels should be every five or ten years for time-series data like this, but the chart data starts at 1962. To hack this, I created a new column called 'chart-year' and only included the years I wanted to show. Because of spacing issues, I had to abbreviate the first year, 1962, as '62. 
+                    </li>
+                    <li>It appears that the growth in Medicare and Medicaid spending is a big story in this chart. For that reason, I chose to use the brightest color in the categorical pallet for that series. </li>
+                    <li>Contrast in typographic elements helps establish hierarchy. The 'actual' and 'projected' labels are different than the series labels, so I made them gray and italic. </li>
+                    </ul>
+
+
+                <!--            download the file-->
+                <a href="excel%2520files/area-and-line.xls">
+                    <button class="btn btn-primary">Download this example</button>
+                </a>
+                
+                <hr class="divider"/>
+                <img src="img/area-100-percent.png" class="example-chart" width="100%" />
+
+            <!--            chart notes-->
+                <h5>Notes about this chart</h5>
+                <ul>
+                    
+                    <li>The x-axis is starting to get a little cramped. To free up some space, we could modify the data so that anything over one million dollars is represented as $1 mil. instead of $1,000,000.
+                    </li>
+                    <li>I put the legend to the right of the chart in a vertical layout. The order matches the order of the data in the columns. </li>
+                    </ul>
+
+
+                <!--            download the file-->
+                <a href="excel%2520files/area-100-percent.xlsx">
+                    <button class="btn btn-primary">Download this example</button>
+                </a>
+                
+            
+                            <hr class="divider"/>
+                
+            
+                            <hr class="divider"/>
+                
                 <img src="img/stacked-column-categorical.png" class="example-chart" width="100%" />
 
             <!--            chart notes-->
@@ -1124,7 +1120,55 @@
                 <a href="excel%2520files/column-chart.xls">
                     <button class="btn btn-primary">Download this example</button>
                 </a>
+                
+<!--                END CHART-->
+<!--
+            ///////////////////////////////////////
+            /////////////     CHART     ///////////
+            ///////////////////////////////////////
+-->
 
+            <div class="col-lg-10 col-lg-offset-1">
+                <hr class="divider"/>
+                <h3 style="margin-top:25px;">Line Charts</h3>
+                <h4>When to use a line chart</h4>
+                <ul>
+                    <li>Shows the trend in one variable, usually over time. 
+                    </li><li>Multiple lines can show multiple variables (if they are on the same scale).
+ </li><li>Multiple lines can also show the same variable for multiple observations.</li>
+                </ul>
+
+                <h4>Style tips</h4>
+                <ul>
+                    <li>The y-axis should always start at zero.
+                    </li><li>When possible, directly label series. If too close together, use a legend.
+</li><li>Avoid individual data markers.
+</li><li>Avoid dashed lines.
+</li><li>In a single chart, try to keep the maximum number of lines to three or four. More is not always better. Plotting too many lines on the same chart gives a confusing picture and defeats the purpose.
+</li><li>Legends should be stretched across the top of the chart and the order should match the order in the chart.
+                        </li><li>Sequential series should be shaded from lightest to darkest for easy comparison.</li></ul>
+
+
+          
+                <img src="img/line-chart.png" width="100%" class="example-chart"  />
+           
+                <h5>Notes about this chart</h5>
+                <ul>
+                    <li>Let's suppose the data in this chart is categorical&mdash;that's why I used two contrasting colors. If the data was sequential, I would have used two shades of teal.
+                    </li>
+                    <li>The x-axis is starting to get a little cramped. To free up some space, we could reduce the number of labels (labeling every 2, 5, or 10 years) or change the year format to be '98, '99, '00, etc.  
+                    </li>
+                </ul>
+
+
+                <!--            download the file-->
+                <a href="excel%2520files/column-chart.xls">
+                    <button class="btn btn-primary">Download this example</button>
+                </a>
+
+            </div>
+            
+<!--            END CHART-->
             
             
 
