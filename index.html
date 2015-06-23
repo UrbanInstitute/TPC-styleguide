@@ -892,6 +892,11 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
                 <h1>Examples</h1>
+                <p>The following examples use the styles and colors to illustrate common chart types. To deconstruct any example, download the the master Excel file.</p>
+                <!--            download the file-->
+                <a href="excel%2520files/chart-styles.xlsx">
+                    <button class="btn btn-primary">Download the master example file</button>
+                </a>
                 <h3 style="margin-top:25px;">Bar and Column Charts</h3>
                 <h4>When to use a bar or column chart</h4>
                 <ul>
@@ -905,9 +910,9 @@
 
                 <h4>Style tips</h4>
                 <ul>
-                    <li>Avoid 3d bars
+                    <li>Avoid 3d bars or columns
                     </li>
-                    <li>The y-axis should always start at zero.
+                    <li>The y-axis should always<a href="http://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/" target="_blank">*</a> start at zero.
                     </li>
                     <li>The width of the bars should be about twice the width of the space between the bars.
                     </li>
@@ -922,6 +927,8 @@
                     <li>Sequential series should be shaded from lightest to darkest for easy comparison.</li></ul>
 
 
+                <img src="img/column1.png" width="100%" class="example-chart"  />
+                <img src="img/column2.png" width="100%" class="example-chart"  />
                 <img src="img/column-chart.png" width="100%" class="example-chart"  />
 
             <!--            chart notes-->
@@ -932,13 +939,22 @@
                     </li>
                     <li>The 'All' category is shaded gray to create visual contrast to the rest of the columns.
                     </li>
+                    <li>This chart isn't perfect because the columns on the right side of the chart are unproporionally large—their categories are a fraction of the others, yet they are visually equally weighted. A possible solution is to use <a href="https://support.office.com/en-nz/article/Quick-start-Apply-conditional-formatting-6b6f7c2a-5d62-45a1-8f67-584a76776d67" target="_blank">conditional formatting</a> and build upon a traditional distributional table.</li>
                 </ul>
+                    <img src="img/conditional-formatting.png" width="100%" class="example-chart"/>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
+                <hr class="divider"/>
+                
+                 <img src="img/grouped-column-3.png" width="100%" class="example-chart"  />
+
+            <!--            chart notes-->
+  
+                <h5>Notes about this chart</h5>
+                <ul>
+                    <li>When dealing with political comparisons, lean on the identifiable colors of the parties. Red colors are generally associated with Republicans and Blues are generally associated with Democrats.</li>
+                    <li>When working on a chart that's got polical categories, be sure to use a non-political color for baseline or unaffiliated series (in this case, 'current law').</li>
+                </ul>
 
             </div>
             
@@ -962,7 +978,7 @@
 
                 <h4>Style tips</h4>
                 <ul>
-                    <li>The y-axis should always start at zero.
+                    <li>The y-axis should always<a href="http://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/" target="_blank">*</a> start at zero.
                     </li><li>Axis labels should always be horizontal. If you have long labels, consider making a horizontal bar chart instead of a column chart.
  </li><li>When using a horizontal bar chart, right-align the category labels and center them vertically with the respect to the bar.
  </li><li>Try to avoid vertical grid lines. Instead, directly label each bar.</li></ul>
@@ -978,10 +994,7 @@
                 </ul>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
+               
 
             </div>
             
@@ -1014,14 +1027,25 @@
 
                 <h4>Style tips</h4>
                 <ul>
-                    <li>The y-axis should always start at zero.
-                    </li><li>When possible, directly label series. If too close together, use a legend.
+                    <li>The y-axis should always<a href="http://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/" target="_blank">*</a> start at zero.
+                    </li><li>When possible, directly label series. If they are too small, use a legend.
  </li><li>Avoid individual data labels.
  </li><li>In a single chart, try to keep the maximum number of categories to three or four. More is not always better. Plotting too many categories on the same chart gives a confusing picture and defeats the purpose.
  </li><li>Legends should be stretched across the top of the chart, or on the right, and the order should match the order in the chart.
  </li><li>Sequential series should be shaded from lightest to darkest for easy comparison.</li></ul>
 
+  <img src="img/area2.png" class="example-chart" width="100%" />
 
+            <!--            chart notes-->
+                <h5>Notes about this chart</h5>
+                <ul>
+                    
+                    <li>This chart is an example of how to use two color families to tell a better story. Here, the CTC series are in shades of gray and the EITC series are in blues. This helps the user visually connect the series.  
+                    </li>
+                    <li>Instead of a key, there is enough room to directly label the series using text boxes. Coordinated text color also helps the user make the connection between the label and the series.</li>
+                    </ul>
+              <hr class="divider"/>
+                
                 <img src="img/area.png" class="example-chart" width="100%" />
 
             <!--            chart notes-->
@@ -1035,10 +1059,6 @@
                     </ul>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/area-and-line.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
                 
                 <hr class="divider"/>
                 <img src="img/area-100-percent.png" class="example-chart" width="100%" />
@@ -1054,57 +1074,49 @@
                 <h5>How it's made</h5>
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nA_N8_fdVak" frameborder="0" allowfullscreen></iframe>
 
-                <!--            download the file-->
-                <a href="excel%2520files/area-100-percent.xlsx">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
+            
                 
             
                             <hr class="divider"/>
                 
-            
-                            <hr class="divider"/>
+                <h3>Case study: Alternative to a stacked column chart</h3>
+                <p>Often, when wanting to show composition across several dimensions (usually time), a stacked column chart is the default choice. While not a bad chart type on its own, often a story can be better told by using alternative chart types.</p>
                 
                 <img src="img/stacked-column-categorical.png" class="example-chart" width="100%" />
 
             <!--            chart notes-->
                 <h5>Notes about this chart</h5>
                 <ul>
-                    
+                    <li>It is hard to see change in the middle series because of the shifting height of the salaries and wages bars.</li>
                     <li>The x-axis is starting to get a little cramped. To free up some space, we could modify the data so that anything over one million dollars is represented as $1 mil. instead of $1,000,000.
                     </li>
-                    <li>I put the legend to the right of the chart in a vertical layout. The order matches the order of the data in the columns. </li>
+                    <li>The legend is positioned to the right of the chart in a vertical layout. The order matches the order of the data in the columns. Some series are too small to directly label them. </li>
                     </ul>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
-                
+              
             
                             <hr class="divider"/>
 
-
+<h5>Grouped column chart</h5>
                 <img src="img/grouped-column-categorical.png" class="example-chart" width="100%" />
 
             <!--            chart notes-->
                 <h5>Notes about this chart</h5>
                 <ul>
-                    
+                    <li>This version makes it easier to see the change in individual series across categories.</li>
+                    <li>It is also easier to compare series within the same category, allowing a better visual understanding of the part-to-whole relationship of any one data point.</li>
                     <li>The x-axis is starting to get a little cramped. To free up some space, we could modify the data so that anything over one million dollars is represented as $1 mil. instead of $1,000,000.
                     </li>
-                    <li>Rather than a stacked column chart, a grouped column chart makes it easier to see the distribution of data within a given category.</li>
+                    
                     
                 </ul>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
                 
                                 <hr class="divider"/>
+
+                <h5>Small Multiples Area Charts</h5>
 
                 <img src="img/area-multiples.png" class="example-chart" width="100%" />
            
@@ -1112,18 +1124,14 @@
             <!--            chart notes-->
                 <h5>Notes about this chart</h5>
                 <ul>
-                    
+                    <li>If the story for this chart is about the distribution of any given series, small multiple area charts are the way to go. </li>
+                    <li>For example, it's easy to see that the lower-earning groups get most of their income from salary, whereas the highest-earners get more from capital gains.</li>
                     <li>The x-axis labels are a little small.</li>
                     <li>The legend is likely unnecessary—the same labels could be accomplished with text boxes. </li>
                     <li>The colors here are also unnecessary—There's no need to code the data by color because they're all separate. I do, however, like the contrast the colors give each category.</li>
                 </ul>
+            </div>
 
-
-                <!--            download the file-->
-                <a href="excel%2520files/column-chart.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
-                
 <!--                END CHART-->
 <!--
             ///////////////////////////////////////
@@ -1143,7 +1151,7 @@
 
                 <h4>Style tips</h4>
                 <ul>
-                    <li>The y-axis should always start at zero.
+                    <li>The y-axis should always<a href="http://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/" target="_blank">*</a> start at zero.
                     </li><li>When possible, directly label series. If too close together, use a legend.
 </li><li>Avoid individual data markers.
 </li><li>Avoid dashed lines.
@@ -1162,12 +1170,85 @@
                     <li>The x-axis is starting to get a little cramped. To free up some space, we could reduce the number of labels (labeling every 2, 5, or 10 years) or change the year format to be '98, '99, '00, etc.  
                     </li>
                 </ul>
+                <hr class="divider"/>
+                <img src="img/line.png" width="100%" class="example-chart"/>
+                <h5>Notes about this chart</h5>
+                <ul>
+                    <li>Sometimes, we need to display data that is not on a regular interval. In these cases, it is helpful to mark the datapoints with individual markers.</li>
+                </ul>
 
 
-                <!--            download the file-->
-                <a href="excel%2520files/area-multiples.xls">
-                    <button class="btn btn-primary">Download this example</button>
-                </a>
+
+            </div>
+            
+<!--            END CHART-->
+            
+            
+            <!--
+            ///////////////////////////////////////
+            /////////////     CHART     ///////////
+            ///////////////////////////////////////
+-->
+
+            <div class="col-lg-10 col-lg-offset-1">
+                <hr class="divider"/>
+                <h3 style="margin-top:25px;">Pie and Distribution charts</h3>
+                <h4>When to use a pie chart</h4>
+                <ul>
+                    <li>Use them very sparingly. Often a bar or column chart is better. It is much more difficult to visually judge the size of circles (or circle segments) vs. rectangles.
+<li>Use pie charts when you want to show the relative relationship between two or three things.</li>
+<li>When they add up to 100% (which may necessitate the inclusion of a category such as “none”, or “other.”</li>
+                </ul>
+
+                <div style="background-color:#efefef; padding: 10px;"><h4 class="yellow" style="padding: 10px;">Cautions about pie charts</h4>
+                    <h6>Excerpted from Jon Schwabish's <a href="
+http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.28.1.209" target="_blank">An Economist’s Guide to Visualizing Data</a></h6>
+<p>The debate concerning the effectiveness of pie charts is among the most he debate concerning the effectiveness of pie charts is among the most contentious in the field of data visualization (much of the discussion in this section is based on Few 2007). Many people love pie charts—they are familiar, easily understood, and present “part-to-whole” relationships in an obvious way. But others argue that because pie charts force readers to make comparisons using the areas of the slices or the angles formed by the slices—something that our visual perception does not accurately support—they are not an effective way to communicate information.</p>
+             <p>Pie charts slices that form 90-degree right angles—that is, slices that form one-quarter increments—are the most familiar to our eyes. Other amounts can be far more difficult to discern. For that reason, a column or bar chart is preferable in most cases.
+                </p>
+                <img src="img/pie-comparison.png" width="100%" class="example-chart"/> 
+                
+                
+                <h4>Pie chart research</h4>
+                <p><ul><li><a href="
+http://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf" target="_blank">Save the Pies for Desert,</a> Stephen Few</li>
+                    <li><a href="
+http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.28.1.209" target="_blank">An Economist’s Guide to Visualizing Data</a>, Jon Schwabish</li>
+                    <li><a href="
+http://www.businessinsider.com/pie-charts-are-the-worst-2013-6" target="_blank">Pie Charts are the Worst,</a> Walter Hickey</li>
+                    <li><a href="
+                        http://www.jstor.org/stable/2288400?seq=15#page_scan_tab_contents" target="_blank">Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods,</a> William S. Cleveland and Robert McGill</li>
+                    </ul>
+                </p><p>
+                The current thinking is pretty much summed up by this tweet from data visualization pioneer Edward Tufte: </p>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr" style="align:center">Pie chart users deserve same suspicion+skepticism as those who mix up its/it&#39;s, there/their.To compare,use little table, sentence, not pies.</p>&mdash; Edward Tufte (@EdwardTufte) <a href="https://twitter.com/EdwardTufte/status/289208399621672960">January 10, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+             <p>       
+That’s not to say that they don’t have a place when communicating research. They're OK to use use when the number of slices are fewer than four or five— and when you’re trying to tell a clear ‘part-to-whole’ story about a single slice.
+</p>
+                <h5>How to improve a pie chart</h5>
+                <img src="img/devourThePie3.gif" width="100%" class="example-chart">
+            </div>
+          <h4>Pie chart examples</h4>
+                <img src="img/pie.png" width="100%" class="example-chart"  />
+           
+                <h5>Notes about this chart</h5>
+                <ul>
+                    <li>Let's suppose the data in this chart is categorical&mdash;that's why I used two contrasting colors. If the data was sequential, I would have used two shades of teal.
+                    </li>
+                    <li>The x-axis is starting to get a little cramped. To free up some space, we could reduce the number of labels (labeling every 2, 5, or 10 years) or change the year format to be '98, '99, '00, etc.  
+                    </li>
+                </ul>
+                <img src="img/pie-alternative.png" width="100%" class="example-chart"  />
+                <hr class="divider"/>
+                <img src="img/pie-many.png" width="100%" class="example-chart"/>
+                <h5>Notes about this chart</h5>
+                <ul>
+                    <li>Sometimes, we need to display data that is not on a regular interval. In these cases, it is helpful to mark the datapoints with individual markers.</li>
+                </ul>
+                <img src="img/pie-many-alternative.png" width="100%" class="example-chart"  />
+
+
 
             </div>
             
@@ -1186,11 +1267,13 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
+<!--
                     <h2>About this project</h2>
                     <p>more content here</p>
-                    <p class="credit">Photo from <a target="_blank" href="http://www.shutterstock.com/pic-220408021/stock-photo-close-up-of-young-woman-looking-to-the-side.html" target="_blank">Shutterstock</a>
+-->
+                    <p class="credit">Photo from <a target="_blank" href="http://www.shutterstock.com" target="_blank">Shutterstock</a>
                     </p>
-                    <p>Copyright Urban Institute 2014</p>
+<!--                    <p>Copyright Urban Institute 2015</p>-->
 
                 </div>
             </div>
